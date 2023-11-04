@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-tomlconfig"
+version = "2023.11"
+description = "TOML configuration Python module with override feature and some utility functions."
+authors = ["hobobandy <30026704+hobobandy@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
